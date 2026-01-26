@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 const { Schema } = mongoose
 
-const userSchema = new Schema({
+const commentSchema = new Schema({
     user:{
         type: Schema.Types.ObjectId,
         required: true,
@@ -19,4 +19,4 @@ const userSchema = new Schema({
     },
 },{timestamps: true})
 
-export default mongoose.models.User || mongoose.model('User',userSchema)
+export default mongoose.models.Comment || mongoose.model('Comment',commentSchema)
