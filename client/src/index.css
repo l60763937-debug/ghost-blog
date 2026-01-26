@@ -13,4 +13,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  background-color:#d1cba51f;
+  font-family: "Montserrat", sans-serif;
+}
