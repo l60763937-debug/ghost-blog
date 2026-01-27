@@ -19,7 +19,7 @@ const userSchema = new Schema({
         unique: true,
         lowercase: true
     },
-    img: String,
+    avatar: String,
     savedPosts:{
         type: [String],
         default: []
